@@ -43,6 +43,8 @@ git diff --staged --name-only
 - **変更ファイル一覧**: `git diff --name-only`
 - **関連PMチケット**: `.company/pm/tickets/` から該当チケットを特定
 - **CLAUDE.md**: リポジトリルートおよび `.company/CLAUDE.md` の規約
+- **Review Principles**: `.company/review/review-principles.md`（存在する場合）
+- **Guardian Patterns**: `.company/guardian/approach-patterns.md`（存在する場合）
 
 ### 4. エージェント起動
 
@@ -65,6 +67,7 @@ test-reviewer ┘
 - 関連PMチケットの内容（spec-reviewer のみ）
 - CLAUDE.md の規約
 - ブランチ名と変更ファイル一覧
+- Review Principles / Guardian Patterns（存在する場合）
 
 ### 5. 結果の集約
 
