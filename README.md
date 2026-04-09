@@ -7,7 +7,7 @@ Claude Code で仮想組織を構築・運営するプラグイン。
 ## インストール
 
 ```
-/plugin marketplace add Shin-sibainu/cc-company
+/plugin marketplace add watanabe-e-kamakura/Kamashin-ai-Supporter
 /plugin install company@cc-company
 ```
 

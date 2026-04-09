@@ -5,7 +5,7 @@
 Run the following in Claude Code:
 
 ```
-/plugin marketplace add Shin-sibainu/cc-company
+/plugin marketplace add watanabe-e-kamakura/Kamashin-ai-Supporter
 /plugin install company@cc-company
 ```
 

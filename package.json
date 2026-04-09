@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Shin-sibainu/cc-company.git"
+    "url": "git+https://github.com/watanabe-e-kamakura/Kamashin-ai-Supporter.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Shin-sibainu/cc-company/issues"
+    "url": "https://github.com/watanabe-e-kamakura/Kamashin-ai-Supporter/issues"
   },
-  "homepage": "https://github.com/Shin-sibainu/cc-company#readme",
+  "homepage": "https://github.com/watanabe-e-kamakura/Kamashin-ai-Supporter#readme",
   "devDependencies": {
     "vitepress": "^1.6.4"
   }

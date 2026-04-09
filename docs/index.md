@@ -14,7 +14,7 @@ hero:
       link: /guide/getting-started
     - theme: alt
       text: GitHub
-      link: https://github.com/Shin-sibainu/cc-company
+      link: https://github.com/watanabe-e-kamakura/Kamashin-ai-Supporter
 
 features:
   - title: 🗣️ 秘書が窓口

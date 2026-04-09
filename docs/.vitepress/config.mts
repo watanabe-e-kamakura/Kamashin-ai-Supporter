@@ -18,7 +18,7 @@ export default defineConfig({
           { text: "リファレンス", link: "/reference/departments" },
           {
             text: "GitHub",
-            link: "https://github.com/Shin-sibainu/cc-company",
+            link: "https://github.com/watanabe-e-kamakura/Kamashin-ai-Supporter",
           },
           {
             text: "Claude Code Academy",
@@ -99,7 +99,7 @@ export default defineConfig({
           { text: "Reference", link: "/en/reference/departments" },
           {
             text: "GitHub",
-            link: "https://github.com/Shin-sibainu/cc-company",
+            link: "https://github.com/watanabe-e-kamakura/Kamashin-ai-Supporter",
           },
           {
             text: "Claude Code Academy",
@@ -196,13 +196,13 @@ export default defineConfig({
 
   themeConfig: {
     socialLinks: [
-      { icon: "github", link: "https://github.com/Shin-sibainu/cc-company" },
+      { icon: "github", link: "https://github.com/watanabe-e-kamakura/Kamashin-ai-Supporter" },
     ],
 
     footer: {
       message:
         'MIT License | <a href="https://claude-code-academy.dev/" target="_blank">Claude Code Academy</a>',
-      copyright: "© 2026 Shin-sibainu",
+      copyright: "© 2026 watanabe-e-kamakura",
     },
 
     search: {

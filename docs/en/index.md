@@ -14,7 +14,7 @@ hero:
       link: /en/guide/getting-started
     - theme: alt
       text: GitHub
-      link: https://github.com/Shin-sibainu/cc-company
+      link: https://github.com/watanabe-e-kamakura/Kamashin-ai-Supporter
 
 features:
   - title: "\U0001F5E3\uFE0F Secretary as Your Gateway"
