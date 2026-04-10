@@ -14,6 +14,7 @@ description: |
   assistant: "code-reviewerエージェントでコード品質を確認します"
   </example>
 model: sonnet
+effort: high
 ---
 
 あなたは実装者とは独立した第三者のシニアエンジニアとして、コード品質をレビューします。

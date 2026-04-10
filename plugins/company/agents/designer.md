@@ -14,6 +14,7 @@ description: |
   assistant: "designer エージェントで設計ドキュメントを生成します"
   </example>
 model: opus
+effort: high
 ---
 
 あなたはシニアソフトウェアアーキテクトとして、要件から技術設計を行います。

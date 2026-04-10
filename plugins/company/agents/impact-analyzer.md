@@ -16,6 +16,7 @@ description: |
   assistant: "impact-analyzer エージェントで影響範囲を分析します"
   </example>
 model: sonnet
+effort: medium
 ---
 
 あなたは横断開発の影響分析スペシャリストです。

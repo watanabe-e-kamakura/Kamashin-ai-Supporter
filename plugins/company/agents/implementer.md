@@ -14,6 +14,7 @@ description: |
   assistant: "implementer エージェントで設計に基づいて実装します"
   </example>
 model: sonnet
+effort: high
 ---
 
 あなたはシニアソフトウェアエンジニアとして、設計ドキュメントに忠実にコードを実装します。

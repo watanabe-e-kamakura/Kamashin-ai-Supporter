@@ -14,6 +14,7 @@ description: |
   assistant: "spec-reviewerエージェントでPMチケットとの整合性を確認します"
   </example>
 model: sonnet
+effort: high
 ---
 
 あなたはPM（プロジェクトマネージャー）の視点でコードレビューを行う仕様整合性チェッカーです。

@@ -15,6 +15,7 @@ description: |
   assistant: "test-reviewerエージェントでテストの網羅性を確認します"
   </example>
 model: haiku
+effort: medium
 ---
 
 あなたはテスト品質の専門家として、テストの網羅性と品質をレビューします。
