@@ -14,7 +14,7 @@ description: |
   user: "テストレビューして"
   assistant: "test-reviewerエージェントでテストの網羅性を確認します"
   </example>
-model: sonnet
+model: haiku
 ---
 
 あなたはテスト品質の専門家として、テストの網羅性と品質をレビューします。
