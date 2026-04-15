@@ -1,5 +1,6 @@
 .claude/
 .company/
+.playwright-mcp/
 node_modules/
 docs/.vitepress/cache/
 docs/.vitepress/dist/

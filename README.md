@@ -1,14 +1,13 @@
 # cc-company
 
-Claude Code で仮想組織を構築・運営するプラグイン。
+> Claude Code で仮想組織を構築・運営するプラグイン（v2.5.0）
 
 `/company` を実行すると、秘書があなた専用の窓口になります。3ステップで即運用開始。部署は使い方に合わせて自然に増えていきます。
 
 ## インストール
 
 ```
-/plugin marketplace add watanabe-e-kamakura/Kamashin-ai-Supporter
-/plugin install company@cc-company
+/install watanabe-e-kamakura/Kamashin-ai-Supporter
 ```
 
 ## コンセプト
@@ -61,12 +60,35 @@ Claude Code で仮想組織を構築・運営するプラグイン。
   → research/ が自動生成される
 ```
 
+## スキル・コマンド
+
+| コマンド | 説明 |
+|---------|------|
+| `/company:company` | 仮想カンパニー（秘書・TODO・壁打ち・相談） |
+| `/company:autodev` | 設計→レビュー→実装→テストの自動開発フロー |
+| `/company:review` | 第三者目線コードレビュー（仕様・品質・テスト） |
+| `/company:worktree` | Worktree の作成・起動・停止・削除 |
+
+## エージェント
+
+タスクに応じて自動で専門エージェントが起動します。
+
+| エージェント | 役割 |
+|-------------|------|
+| `designer` | 要件から技術設計・実装計画・テスト計画を生成 |
+| `implementer` | 設計ドキュメントに基づくコード・テスト実装 |
+| `code-reviewer` | コード品質・バグ検出・セキュリティレビュー |
+| `test-reviewer` | テスト網羅性・品質レビュー |
+| `spec-reviewer` | PMチケットと実装の仕様整合性チェック |
+| `impact-analyzer` | クロスリポジトリ影響分析 |
+
 ## 部署（必要に応じて追加）
 
 | 部署 | 担当領域 |
 |------|---------|
-| 秘書室 | TODO管理、壁打ち、メモ、相談（常設） |
-| PM | プロジェクト進捗、チケット管理 |
+| 秘書室 | TODO管理、壁打ち、メモ、Slack管理、勤怠（常設） |
+| PM | プロジェクト進捗、GitHub Issue連携、チケット管理 |
+| ガーディアン | 設計・実装・レビューの品質チェック |
 | リサーチ | 市場調査、競合分析、技術調査 |
 | マーケティング | コンテンツ企画、SNS、キャンペーン |
 | 開発 | 技術ドキュメント、設計、デバッグ |
@@ -101,20 +123,39 @@ Claude Code で仮想組織を構築・運営するプラグイン。
 
 ```
 cc-company/
-├── .claude-plugin/
-│   └── marketplace.json
 ├── plugins/
 │   └── company/
 │       ├── .claude-plugin/
-│       │   └── plugin.json
+│       │   └── plugin.json        ← プラグイン定義（v2.5.0）
+│       ├── agents/                 ← 専門エージェント
+│       │   ├── code-reviewer.md
+│       │   ├── designer.md
+│       │   ├── impact-analyzer.md
+│       │   ├── implementer.md
+│       │   ├── spec-reviewer.md
+│       │   └── test-reviewer.md
+│       ├── commands/               ← コマンド定義
+│       │   ├── autodev.md
+│       │   ├── review.md
+│       │   └── worktree.md
 │       └── skills/
 │           └── company/
-│               ├── SKILL.md
+│               ├── SKILL.md        ← /company スキル定義
 │               └── references/
 │                   ├── departments.md
 │                   └── claude-md-template.md
+├── docs/                           ← ドキュメントサイト（VitePress）
 ├── README.md
 └── LICENSE
+```
+
+## ドキュメント
+
+詳細なガイドは [ドキュメントサイト](https://watanabe-e-kamakura.github.io/Kamashin-ai-Supporter/) を参照してください。
+
+```bash
+# ローカルで閲覧する場合
+npm run docs:dev
 ```
 
 ## ライセンス
